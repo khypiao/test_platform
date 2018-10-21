@@ -4,7 +4,7 @@ from django.contrib import auth
 
 # Create your views here.
 # 主要代码逻辑
-
+#
 
 def index(request):
     return render(request, "index.html")
